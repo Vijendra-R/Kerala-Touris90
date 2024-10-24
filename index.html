@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Welcome to God's own Country</h1>
+        <div id="logo">
+            <img src="./images/logo.png" alt="Kerala-Tourism-logo" width="120px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-us">About-us</a></li>
+                <li><a href="#Destinations">Destinations</a></li>
+                <li><a href="#Districts">Districts</a></li>
+                <li><a href="#Contact-us">Contact-us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section">
+            <h1>Come and Enjoy Our Culture</h1>
+            <a href="#learnmore.html">Learn More</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#Contact-us">Contact-us</a><br><br>
+        </section>
+        <section id="destinations">
+            <h1>Top Destinations</h1>
+            <article class="Destination">
+                <figure>
+                    <img src="./images/alappuzha.webp" alt="Alappuzha" width="350px">
+                    <figcaption>Alappuzha - Venice of the East</figcaption>
+                </figure>
+                <p>
+                    Alappuzha has always enjoyed an important place in the maritime history of Kerala. Today,
+                    it is famous for its boat races, backwater holidays, beaches, marine products and coir industry.
+                    Alappuzha Beach is a popular picnic spot. The pier, which extends out to the sea here, is over 137 years old.
+                    Entertainment facilities at the Vijaya Beach Park add to the attraction of the beach.
+                    There is also an old lighthouse nearby which greatly intrigues all visitors.
+                </p>
+            </article>
+            <article class="Destination">
+                <figure>
+                    <img src="./images/Munnar.webp" alt="Munnar" width="350px">
+                    <figcaption>Munnar - The Dream Destination</figcaption>
+                </figure>
+                <p>
+                    Munnar rises as three mountain streams merge  - Mudrapuzha, Nallathanni and Kundala. 1,600m above sea level,
+                    this hill station was once the summer resort of the erstwhile British Government in South India.
+                    One of the most sought after honeymoon destinations in Kerala, Munnar is replete with resorts and lodging facilities that fit a wide rage of budgets. 
+                    Sprawling tea plantations, picturesque towns, winding lanes and holiday facilities make this a popular resort town. 
+                </p>
+            </article>
+            <article class="Destination">
+                <figure>
+                    <img src="./images/kovalam.jpg" alt="Kovalam" width="350px">
+                    <figcaption>Kovalam - Pure Magic</figcaption>
+                </figure>
+                <p>
+                    The leisure options at this beach are plenty and diverse. Sunbathing, swimming, herbal body toning massages, 
+                    special cultural programmes and catamaran cruising are some of them. 
+                    The tropical sun acts so fast that one can see the faint blush of coppery tan on the skin in a matter of minutes. 
+                    Life on the beach begins late in the day and carries on well into the night.
+                </p>
+            </article>
+            <article class="Destination">
+                <figure>
+                    <img src="./images/guruvayur.jpg" alt="Guruvayur" width="350px">
+                    <figcaption>Guruvayur</figcaption>
+                </figure>
+                <p>
+                    Home to the Guruvayur Sri Krishna Temple – fourth largest Hindu temple in India, Guruvayur has many legends. 
+                    One of them states that this temple town was chosen by Lord Krishna to ensconce His Dwarka temple. 
+                    On the wish of the Lord, Vayu Deva along with Brhaspati reinstated Lord Krishna’s statue in the sacred Guruvayur Temple.
+                </p>
+            </article>
+        </section>
+        <section>
+            <h1>About Kerala</h1>
+            <img src="./images/keralamap.png" alt="kerala-img" width="300px">
+            <p>Kerala is blessed with a unique set of geographical features that have made it one of the most sought after tourist destinations in Asia. 
+                A long shoreline with serene beaches, tranquil stretches of emerald backwaters, lush hill stations and exotic wildlife, 
+                are just a few of the wonders that await you once you crossover to the other side. 
+                And what's more, each of these charming destinations is only a two hour drive from the other - 
+                a singular advantage no other place on the planet can offer.</p>
+        </section>
+        <section>
+            <h1>Districts</h1>
+            <ol>
+                <li><a href="#">Alappuzha</a></li>
+                <li><a href="#">Ernakulam</a></li>
+                <li><a href="#">Idukki</a></li>
+                <li><a href="#">Kannur</a></li>
+                <li><a href="#">Kasaragod</a></li>
+                <li><a href="#">Kollam</a></li>
+                <li><a href="#">Kottayam</a></li>
+                <li><a href="#">Kozhikode</a></li>
+                <li><a href="#">Malappuram</a></li>
+                <li><a href="#">Palakkad</a></li>
+                <li><a href="#">Pathanamthitta</a></li>
+                <li><a href="#">Thiruvananthapuram</a></li>           
+                <li><a href="#">Thrissur</a></li>
+                <li><a href="#">Wayanad</a></li>            
+            </ol>
+        </section>
+        <section>
+            <form action="/action_page.html" method="post">
+                <fieldset>
+                 <legend>Contact us</legend>
+                 <label for="name">Name : </label>
+                 <input type="text" id="name" name="name" placeholder="Enter your Name"><br><br>
+                 <label for="email">Email : </label>
+                 <input type="email" id="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your Email"><br><br>
+                 <label for="phonenumber">Phone Number : </label>
+                 <input type="text" id="phonenumber" name="phonenumber" minlength="10" placeholder="Enter your Phone No"><br><br>
+                 <label for="placetovisit">Place To Visit : </label>
+                 <select name="places" id="places">
+                    <option value="alappuzha">Alappuzha</option>
+                    <option value="ernakulam">Ernakulam</option>
+                    <option value="idukki">Idukki</option>
+                    <option value="Kannur">Kannur</option>
+                    <option value="Kasaragod">Kasaragod</option>
+                    <option value="kollam">Kollam</option>
+                    <option value="kottayam">Kottayam</option>
+                    <option value="kozhikode">Kozhikode</option>
+                    <option value="malappuram">Malappuram</option>
+                    <option value="palakkad">Palakkad</option>
+                    <option value="pathanamthitta">Pathanamthitta</option>
+                    <option value="thiruvananthapuram">Thiruvananthapuram</option>
+                    <option value="thrissur">Thrissur</option>
+                    <option value="wayanad">Wayanad</option>
+                  </select>
+                 <input type="submit" value="Submit">
+                </fieldset>
+               </form>
+        </section>
+    </main>
+    <footer>
+        <h2>Copyright©2024</h2>
+    </footer>
+</body>
+</html>

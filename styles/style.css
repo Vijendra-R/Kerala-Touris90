@@ -1,0 +1,12 @@
+#header{
+    background-color: rgb(194, 67, 17);
+    padding: 2px;
+}
+#destinations{
+    border:1px solid rgb(194, 67, 17);
+}
+.Destination{
+    border:1px solid blue;
+    margin:5px;
+    padding:5px;
+}
