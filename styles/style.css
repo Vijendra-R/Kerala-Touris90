@@ -1,6 +1,10 @@
 #header{
-    background-color: rgb(194, 67, 17);
+    background-color: #dce6ff;
     padding: 2px;
+}
+#id1{
+    text-align: center;
+    color:#009A4D
 }
 #destinations{
     border:1px solid rgb(194, 67, 17);
@@ -9,4 +13,8 @@
     border:1px solid blue;
     margin:5px;
     padding:5px;
+}
+#footer{
+    background-color: #dce6ff;
+    padding: 5px;
 }
